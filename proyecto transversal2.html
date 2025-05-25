@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Transversal - Áreas Verdes</title>
+    <style>
+        :root {
+            --verde-principal: #4CAF50;
+            --verde-secundario: #2E8B57;
+            --fondo: #E6F7F7;
+            --texto: #333;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--fondo);
+            color: var(--texto);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--verde-principal);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1, h2 {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: var(--verde-secundario);
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        video {
+            width: 100%;
+            max-height: 500px;
+            border-radius: 8px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .gallery-item {
+            flex: 1 1 300px;
+            text-align: center;
+        }
+
+        .gallery img {
+            width: 100%;
+            border: 4px solid var(--verde-principal);
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: var(--verde-principal);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 600px) {
+            h1, h2 {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Proyecto Transversal: Embellecimiento de Áreas Verdes</h1>
+    </header>
+
+    <section>
+        <h2>Bienvenidos</h2>
+        <p>
+            Te damos la bienvenida a nuestra página, donde mostramos el proceso realizado para embellecer las áreas verdes del plantel
+            como parte del proyecto transversal en el <strong>CECyTE Benjamín Hill</strong>.
+        </p>
+        <p>
+            Con la colaboración de estudiantes y docentes, logramos transformar un espacio en un entorno más limpio, sostenible y agradable para todos.
+        </p>
+    </section>
+
+    <section>
+        <h2>Video del los integrantes </h2>
+        <video controls>
+            <source src="C:\Users\DELL\Documents\belem\proyecto-transversal2\20250518_200937~2.mp4">
+        </video>
+    </section>
+
+    <section>
+        <h2>Paso a Paso del Proyecto</h2>
+        <p><strong>Paso 1:</strong> Retiramos llantas y basura del área.</p>
+        <p><strong>Paso 2:</strong> Rellenamos con tierra donde era necesario.</p>
+        <p><strong>Paso 3:</strong> Medimos el área y colocamos hule protector alrededor.</p>
+        <p><strong>Paso 4:</strong> Extendimos una bolsa negra y colocamos piedras blancas cooperadas por los grupos.</p>
+        <p><strong>Paso 5:</strong> Plantamos <strong>durantas</strong> con apoyo de todos los estudiantes.</p>
+        <p><strong>Paso 6:</strong> El grupo 3C instaló un sistema de riego automático.</p>
+    </section>
+
+    <section>
+         <h2>Antes y Después del Proyecto</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <p><strong>Antes</strong></p>
+                <img src="C:\Users\DELL\Documents\belem\proyecto-transversal2\WhatsApp Image 2025-05-22 at 8.50.03 PM.jpeg" alt="Imagen del área antes del proyecto">
+            </div>
+            <div class="gallery-item">
+                <p><strong>Después</strong></p>
+                <img src="C:\Users\DELL\Documents\belem\proyecto-transversal2\WhatsApp Image 2025-05-22 at 8.50.03 PM (1).jpeg" alt="Imagen del área después del proyecto">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <p>
+            Así concluyó nuestro proyecto de embellecimiento de áreas verdes. Agradecemos la participación de cada grupo y la orientación de los docentes.
+            Juntos creamos un espacio que representa nuestro compromiso con el medio ambiente y el bienestar escolar.
+        </p>
+    </section>
+
+          <section>
+               <p>
+                   <a href="galeria.html">GALERIA DEL PROYECTO</a>
+
+               </p>
+          <section>
+            <section>
+             <h2>Gracias por visitar nuestra pagina web!!</h2>
+            </section>
+
+    <footer>
+        &copy; CECyTE Benjamín Hill.
+    </footer>
+
+</body>
+</html>
